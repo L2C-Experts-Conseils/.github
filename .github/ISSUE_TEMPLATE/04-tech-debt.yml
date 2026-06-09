@@ -1,5 +1,5 @@
 name: 🚧 Technical Debt
-description: Refactoring, cleanup, or internal improvements
+description: Template pour créer un issue "tech debt".
 title: "[TECH DEBT] "
 labels: ["tech-debt"]
 
