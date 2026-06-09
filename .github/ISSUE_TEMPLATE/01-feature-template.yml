@@ -1,13 +1,15 @@
 name: ✨ Feature
 description: Template pour créer un issue "feature".
-title: "[FEATURE] "
+title: "[FEAT] "
 labels: ["feature"]
 
 body:
-  - type: input
-    id: short_description
+  - type: textarea
+    id: description
     attributes:
-      label: Brève description
-      description: Description du feature. Il peut-être pertinent d'inclure sa raison d'être, un user story et/ou les métriques de succès.
+      label: Description
+      description: Description du feature
+      placeholder: |
+         Décrivez le feature. Il peut-être pertinent d'inclure sa raison d'être, un user story et/ou les métriques de succès.
     validations:
       required: true
