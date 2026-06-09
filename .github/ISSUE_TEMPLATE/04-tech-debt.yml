@@ -1,6 +1,6 @@
 name: 🚧 Technical Debt
 description: Template pour créer un issue "tech debt".
-title: "[TECH DEBT] "
+title: "[DEBT] "
 labels: ["tech-debt"]
 
 body:
