@@ -1,0 +1,30 @@
+name: Feature Request
+
+body:
+
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: Issue Type
+      options:
+        - Feature
+        - Bug
+        - Task
+        - Technical Debt
+        - Spike
+    validations:
+      required: true
+
+  - type: input
+    id: repository
+    attributes:
+      label: Target Repository
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+    validations:
+      required: true
