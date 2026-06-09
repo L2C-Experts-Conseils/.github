@@ -1,0 +1,27 @@
+name: ♻️ Technical Debt
+description: Refactoring, cleanup, or internal improvements
+title: "[TECH DEBT] "
+labels: ["tech-debt"]
+
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Explication
+      description: Quelle est la dette technique / pourquoi est-ce un problème ?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposition de solution
+    validations:
+      required: false
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact si non traité
+    validations:
+      required: false
