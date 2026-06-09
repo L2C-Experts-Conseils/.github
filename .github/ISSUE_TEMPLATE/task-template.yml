@@ -1,0 +1,35 @@
+name: ✅ Task
+description: General implementation work, chores, or operational tasks
+title: "[TASK] "
+labels: ["task", "feature"]
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Description du travail qui doit être fait.
+      placeholder: |
+        Décrivez le travail inclus dans la tâche de façon précise et complète. Incluez les étapes nécessaires, les détails techniques, et tout autre information pertinente pour que quelqu'un puisse comprendre et compléter la tâche.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Parent feature
+      description: SVP lier cette tâche à son feature parent.
+      options:
+        - label: J'ai lié cette tâche à son parent.
+          required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Critères d'acceptation
+      description: Comment valider que la tâche est complétée avec succès ?
+      placeholder: |
+        - [ ] Condition 1
+        - [ ] Condition 2
+    validations:
+      required: false
