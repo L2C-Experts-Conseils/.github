@@ -1,0 +1,14 @@
+name: 🟣 Feature
+description: Template pour créer un issue "Epic".
+title: "[EPIC] "
+labels: ["epic"]
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Description de l'epic
+      placeholder: |
+         Décrivez l'epic. L'epic est un livrable qui peut prendre plusieurs sprints pour être complété et qui inclus plusieurs features.
+      required: true
