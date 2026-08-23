@@ -11,4 +11,5 @@ body:
       description: Description de l'epic
       placeholder: |
          Décrivez l'epic. L'epic est un livrable qui peut prendre plusieurs sprints pour être complété et qui inclus plusieurs features.
+    validations:
       required: true
